@@ -1,0 +1,275 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 20px; /* Aangepaste positie, 20px vanaf de bovenkant */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 600px;
+    background-color: #f0e54b7d; /* Deels doorschijnend wit */
+    backdrop-filter: blur(5px); /* Geblurd effect */
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 180px; /* Hoekradius voor de eilandachtergrond */
+    box-shadow: inset 0 0 10px rgba(141, 110, 255, 0.667); /* Blauwe inner shadow */
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin-left: 15px;
+  }
+  
+  .nav-links a {
+    color: blue;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .nav-button {
+    background-color: rgb(91, 250, 255); /* Gele knopkleur */
+    padding: 8px 15px;
+    border-radius: 180px; /* Hoekradius van 180 graden */
+    color: #333;
+    text-decoration: none;
+    color: #eeff07;
+  }
+  
+  .nav-button:hover {
+    background-color: rgb(46, 0, 102); /* Verander de achtergrondkleur bij hover */
+    color: #eeff07;
+  }
+  
+  
+.blue{
+    background-color: #0099FF;
+    color: yellow;
+    text-align: left;
+    padding-left: 50px; /* Voeg hier de gewenste hoeveelheid padding aan de linkerkant toe */
+    padding-right: 40%
+}
+@font-face {
+  font-family: 'margin';
+  src: url('margin_demo-webfont.woff2') format('woff2'),
+       url('margin_demo-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+*{
+  font-family: margin;
+}
+.yellow-wave{
+  background-color: #0099FF;
+}
+
+
+.yellow{
+  background-color: #FFD700;
+  color: #0099FF;
+  text-align: left;
+  padding-right: 50px; /* Voeg hier de gewenste hoeveelheid padding aan de linkerkant toe */
+  padding-left: 50%;
+}
+.purple{
+  background-color: #000B76;
+  color: #cf59c2;
+  text-align: left;
+  padding-right: 50%; /* Voeg hier de gewenste hoeveelheid padding aan de linkerkant toe */
+  padding-left: 50px;
+}
+.purp-wave{
+  background-color: #000B76;
+}
+.pink{
+  background-color: #e7008a;
+  color: #eeff07;
+  text-align: left;
+  padding-right: 50px; /* Voeg hier de gewenste hoeveelheid padding aan de linkerkant toe */
+  padding-left: 50%;
+}
+.end{
+  background-color: #e7008a;
+}
+/* Verberg de scrollbar op alle elementen */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Optioneel: Verander de stijl van de scroll-thumb als deze zichtbaar is */
+::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+.btn{
+  border-radius: 180px; /* Hoekradius voor de eilandachtergrond */
+  box-shadow: inset 0 0 10px rgba(56, 109, 222, 0.5); /* Blauwe inner shadow */
+  background-color: rgba(51, 75, 232, 0.317); /* Deels doorschijnend wit */
+
+}
+.ftr-btn-btt{
+    
+  padding-right: 50%; /* Voeg hier de gewenste hoeveelheid padding aan de linkerkant toe */
+  padding-left: 50px;
+}
+.btn:last-child {
+  margin-left: 20px;
+}
+.title {
+  text-align: center;
+  
+}
+/* Extra CSS-stijlen voor de navbar */
+.navbar .action-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #0099ff;
+  width: 50px;
+  height: 50px;
+}
+
+.navbar .action-button img {
+  width: 30px;
+  height: 30px;
+}
+.prof{
+  position: fixed;
+    top: 20px; /* Aangepaste positie, 20px vanaf de bovenkant */
+    left: 90%;
+    transform: translateX(-50%);
+    height: 13%;
+    background-color: rgba(51, 75, 232, 0.317); /* Deels doorschijnend wit */
+    backdrop-filter: blur(5px); /* Geblurd effect */
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 180px; /* Hoekradius voor de eilandachtergrond */
+    box-shadow: inset 0 0 10px rgba(56, 109, 222, 0.5); /* Blauwe inner shadow */
+}
+.menu-list {
+  display: none;
+}
+
+.menu-list.open {
+  display: block;
+}
+.menu-button{
+ opacity: 100%;
+ border-radius: 180px;
+}
+
+body{
+  background-color: #fff59e;
+}
+.banana-buy{
+  background-color: #000b76;
+  color:#eeff07;
+  padding-right: 30%; /* Voeg hier de gewenste hoeveelheid padding aan de linkerkant toe */
+  padding-left: 30%;
+}
+.knop{
+  background-color: rgb(91, 250, 255); /* Gele knopkleur */
+    padding: 8px 15px;
+    border-radius: 180px; /* Hoekradius van 180 graden */
+    
+    text-decoration: none;
+    color: rgb(46, 0, 102);
+}
+.knop:hover{
+  background-color: rgb(46, 0, 102); /* Verander de achtergrondkleur bij hover */
+    color: #eeff07;
+}
+.card{
+  border-radius: 30px;
+  background-color: #fff59e;
+  align-items: center;
+  justify-content: center;
+}
+.img{
+  border-radius: 20px;
+}
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ 
+  
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.list-container {
+  flex-basis: 100%;
+  margin-bottom: 20px;
+}
+
+.list-container ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-container li {
+  margin-bottom: 8px;
+}
+.custom-list {
+  list-style-type: none; /* Verwijder standaard bolletjes */
+  padding-left: 0;
+}
+
+.custom-list li {
+  margin-bottom: 8px;
+}
+.list-card {
+  width: calc(33.33% - 20px); /* Aanpassing om ruimte voor marges in te stellen */
+  margin-bottom: 20px;
+}
+.wave{
+  background-color: #000B76;
+}
+div.scrollmenu {
+  background-color:#a2d9ff;
+  overflow: auto;
+  white-space: nowrap;
+  overflow: auto;
+  padding-left: 10%;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: #fff59e;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  display: inline-block; /* Plaats de menu-items naast elkaar */
+}
+
+.lb {
+  background-color: #a2d9ff;
+}
+.About-Us{
+  background-color: #000B76;
+  padding-left: 5%;
+  padding-right: 10%;
+}
